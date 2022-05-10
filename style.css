@@ -1,0 +1,130 @@
+body {
+  text-align: justify;
+  width: 960px;
+  margin: auto;
+}
+
+header,
+footer {
+  border: 2px solid black;
+  display: block;
+  background: black;
+  text-align: center;
+  font-family: sans-serif;
+  clear: both;
+}
+
+h1 {
+  color: yellow;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: white;
+}
+
+section {
+  border: 1px solid black;
+  width: 71%;
+  display: inline_block;
+  float: left;
+  margin: 1px;
+}
+
+article {
+  background: black;
+  padding: 5px;
+  margin: 10px;
+  background: black;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+article footer {
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background: yellow;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+  border: 1px solid lightyellow;
+}
+
+aside {
+  border: 1px solid yellow;
+  width: 28%;
+  display: inline_block;
+  float: left;
+  background: black;
+  text-align: right;
+  margin: 1px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 5px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+a {
+  color: black;
+  padding: 5px;
+  display: block;
+}
+
+time {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  color: yellow;
+  padding: 20px;
+  font-style: italic;
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid yellow;
+}
+
+figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu {
+  border: 3px solid yellow;
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  background: black;
+
+}
+
+.menu li {
+  padding: 10px;
+  margin: 0px;
+  background-color: yellow;
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+}
